@@ -110,7 +110,12 @@ namespace SilentOrbit.ProtocolBuffers
                     {
                         // Always output repeated fields with []
                         fieldToStringCode = string.Format("{1}\"[\" + ({0} != null ? string.Join(\", \", {0}.ConvertAll<string>(o => o.ToString()).ToArray()) : \"\") + \"]\"{2}", f.CsName, fieldHeaderCode, fieldCommaCode);
-                    } 
+                    }
+                    else if (f.ProtoTypeName == "bytes") 
+                    {
+                        // Special code to output bytes
+                        fieldToStringCode = string.Format("{1}\"[\" + ({0} != null ? string.Join(\", \", System.Array.ConvertAll<byte, string>({0}, o => o.ToString())) : \"\") + \"]\"{2}", f.CsName, fieldHeaderCode, fieldCommaCode);
+                    }
                     else
                     {
                         fieldToStringCode = fieldHeaderCode + f.CsName + fieldCommaCode;
