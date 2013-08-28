@@ -114,7 +114,7 @@ namespace SilentOrbit.ProtocolBuffers
                     else if (f.ProtoTypeName == "bytes") 
                     {
                         // Special code to output bytes
-                        fieldToStringCode = string.Format("{1}\"[\" + ({0} != null ? string.Join(\", \", System.Array.ConvertAll<byte, string>({0}, o => o.ToString())) : \"\") + \"]\"{2}", f.CsName, fieldHeaderCode, fieldCommaCode);
+                        fieldToStringCode = string.Format("{1}\"[\" + ({0} != null ? BitConverter.ToString({0}) : \"\") + \"]\"{2}", f.CsName, fieldHeaderCode, fieldCommaCode);
                     }
                     else
                     {
