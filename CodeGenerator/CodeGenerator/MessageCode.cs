@@ -106,6 +106,11 @@ namespace SilentOrbit.ProtocolBuffers
                         // Hide optional nullable fields: this makes logging cleaner for union types
                         fieldToStringCode = string.Format("({0} != null ? {1}{0}{2}:  \"\")", f.CsName, fieldHeaderCode, fieldCommaCode);
                     } 
+                    else if (f.Rule == FieldRule.Repeated && f.ProtoTypeName == "bytes")
+                    {
+                        // Always output repeated fields with []
+                        fieldToStringCode = string.Format("{1}\"[\" + ({0} != null ? string.Join(\", \", {0}.ConvertAll<string>(o => o != null ? BitConverter.ToString(o) : \"\").ToArray()) : \"\") + \"]\"{2}", f.CsName, fieldHeaderCode, fieldCommaCode);
+                    }
                     else if (f.Rule == FieldRule.Repeated)
                     {
                         // Always output repeated fields with []
