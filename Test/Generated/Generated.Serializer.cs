@@ -95,7 +95,7 @@ namespace Personal
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -152,7 +152,7 @@ namespace Personal
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -208,7 +208,7 @@ namespace Personal
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -343,7 +343,7 @@ namespace Personal
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -390,7 +390,7 @@ namespace Personal
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -436,7 +436,7 @@ namespace Personal
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -552,7 +552,7 @@ namespace Personal
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -597,7 +597,7 @@ namespace Personal
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -641,7 +641,7 @@ namespace Personal
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -764,7 +764,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -809,7 +809,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -853,7 +853,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -1037,7 +1037,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -1146,7 +1146,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -1254,7 +1254,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -1531,7 +1531,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -1615,7 +1615,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -1698,7 +1698,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -1906,7 +1906,7 @@ namespace Google.protobuf
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -1952,7 +1952,7 @@ namespace Google.protobuf
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -1997,7 +1997,7 @@ namespace Google.protobuf
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -2138,7 +2138,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -2213,7 +2213,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -2287,7 +2287,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -2448,7 +2448,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -2504,7 +2504,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -2559,7 +2559,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -2707,7 +2707,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -2760,7 +2760,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -2812,7 +2812,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -2949,7 +2949,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -3005,7 +3005,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -3060,7 +3060,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -3212,7 +3212,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -3269,7 +3269,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -3325,7 +3325,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -3481,7 +3481,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 20:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.Varint)
                             break;
@@ -3573,7 +3573,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 20:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.Varint)
                             break;
@@ -3664,7 +3664,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 20:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.Varint)
                             break;
@@ -3854,7 +3854,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -3910,7 +3910,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -3965,7 +3965,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4120,7 +4120,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4194,7 +4194,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4267,7 +4267,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4417,7 +4417,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4468,7 +4468,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4518,7 +4518,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4637,7 +4637,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4678,7 +4678,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4718,7 +4718,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4834,7 +4834,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4875,7 +4875,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -4915,7 +4915,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -5031,7 +5031,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -5072,7 +5072,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -5112,7 +5112,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 999:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -5263,7 +5263,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -5333,7 +5333,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -5402,7 +5402,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -5550,7 +5550,7 @@ namespace Google.protobuf
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -5596,7 +5596,7 @@ namespace Google.protobuf
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -5641,7 +5641,7 @@ namespace Google.protobuf
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -5754,7 +5754,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -5799,7 +5799,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -5843,7 +5843,7 @@ namespace Google.protobuf
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -5989,7 +5989,7 @@ namespace Google.protobuf
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -6061,7 +6061,7 @@ namespace Google.protobuf
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -6132,7 +6132,7 @@ namespace Google.protobuf
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -6337,7 +6337,7 @@ namespace Local
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -6436,7 +6436,7 @@ namespace Local
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -6534,7 +6534,7 @@ namespace Local
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -6697,7 +6697,7 @@ namespace LocalFeatureTest
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -6730,7 +6730,7 @@ namespace LocalFeatureTest
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -6762,7 +6762,7 @@ namespace LocalFeatureTest
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -6853,7 +6853,7 @@ namespace LocalFeatureTest
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -6886,7 +6886,7 @@ namespace LocalFeatureTest
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -6918,7 +6918,7 @@ namespace LocalFeatureTest
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -7021,7 +7021,7 @@ namespace TestB
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -7064,7 +7064,7 @@ namespace TestB
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -7106,7 +7106,7 @@ namespace TestB
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -7209,7 +7209,7 @@ namespace TestB
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -7251,7 +7251,7 @@ namespace TestB
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -7292,7 +7292,7 @@ namespace TestB
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -7398,7 +7398,7 @@ namespace Mine
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         if (instance.PreservedFields == null)
                             instance.PreservedFields = new List<global::SilentOrbit.ProtocolBuffers.KeyValue>();
@@ -7442,7 +7442,7 @@ namespace Mine
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         if (instance.PreservedFields == null)
                             instance.PreservedFields = new List<global::SilentOrbit.ProtocolBuffers.KeyValue>();
@@ -7485,7 +7485,7 @@ namespace Mine
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         if (instance.PreservedFields == null)
                             instance.PreservedFields = new List<global::SilentOrbit.ProtocolBuffers.KeyValue>();
@@ -7665,7 +7665,7 @@ namespace Yours
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 16:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -7824,7 +7824,7 @@ namespace Yours
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 16:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -7982,7 +7982,7 @@ namespace Yours
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 16:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.LengthDelimited)
                             break;
@@ -8256,7 +8256,7 @@ namespace Theirs
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -8298,7 +8298,7 @@ namespace Theirs
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -8339,7 +8339,7 @@ namespace Theirs
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -8436,7 +8436,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 32:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.Varint)
                             break;
@@ -8489,7 +8489,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 32:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.Varint)
                             break;
@@ -8541,7 +8541,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     case 32:
                         if(key.WireType != global::SilentOrbit.ProtocolBuffers.Wire.Varint)
                             break;
@@ -8674,7 +8674,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -8717,7 +8717,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -8759,7 +8759,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -8873,7 +8873,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -8925,7 +8925,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -8976,7 +8976,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -9106,7 +9106,7 @@ namespace Proto.test
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -9151,7 +9151,7 @@ namespace Proto.test
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -9195,7 +9195,7 @@ namespace Proto.test
                     switch (key.Field)
                     {
                         case 0:
-                            throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                            throw new IOException("Invalid field id: 0, something went wrong in the stream");
                         default:
                             global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                             break;
@@ -9315,7 +9315,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -9361,7 +9361,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;
@@ -9406,7 +9406,7 @@ namespace Proto.test
                 switch (key.Field)
                 {
                     case 0:
-                        throw new InvalidDataException("Invalid field id: 0, something went wrong in the stream");
+                        throw new IOException("Invalid field id: 0, something went wrong in the stream");
                     default:
                         global::SilentOrbit.ProtocolBuffers.ProtocolParser.SkipKey(stream, key);
                         break;

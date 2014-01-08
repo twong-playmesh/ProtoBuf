@@ -70,7 +70,7 @@ namespace Test
                 if (n == 1)
                     continue; //expected difference for FieldA
                 if (streamBufferV2Orig[n] != streamBufferV1Mod[n])
-                    throw new InvalidDataException("Stream buffers do not match at byte " + n);
+                    throw new IOException("Stream buffers do not match at byte " + n);
             }
 
             //Read V2 and test

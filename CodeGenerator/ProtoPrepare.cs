@@ -58,7 +58,7 @@ namespace SilentOrbit.ProtocolBuffers
                     if (f.ProtoType is ProtoBuiltin && ((ProtoBuiltin)f.ProtoType).ProtoName == "bytes")
                         throw new NotImplementedException();
                     if (f.ProtoType is ProtoMessage)
-                        throw new InvalidDataException("Message can't have a default");
+                        throw new IOException("Message can't have a default");
                 }
             }
 

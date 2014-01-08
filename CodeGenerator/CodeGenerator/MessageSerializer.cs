@@ -203,7 +203,7 @@ namespace SilentOrbit.ProtocolBuffers
                 cw.Comment("Reading field ID > 16 and unknown field ID/wire type combinations");
                 cw.Switch("key.Field");
                 cw.Case(0);
-                cw.WriteLine("throw new InvalidDataException(\"Invalid field id: 0, something went wrong in the stream\");");
+                cw.WriteLine("throw new IOException(\"Invalid field id: 0, something went wrong in the stream\");");
                 foreach (Field f in m.Fields.Values)
                 {
                     if (f.ID < 16)
