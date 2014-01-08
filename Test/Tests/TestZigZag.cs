@@ -34,7 +34,7 @@ namespace Test
 
                 MemoryStream ms2 = new MemoryStream(ms1.ToArray());
                 if (ProtocolParser.ReadZInt32(ms2) != test32[n])
-                    throw new InvalidDataException("Test failed");
+                    throw new IOException("Test failed");
 
                 MemoryStream ms3 = new MemoryStream(ms1.ToArray());
                 uint wire = ProtocolParser.ReadUInt32(ms3);
@@ -43,7 +43,7 @@ namespace Test
                     testWire = (testWire * -1) - 1;
 
                 if (testWire != test32[n])
-                    throw new InvalidDataException("Test failed");
+                    throw new IOException("Test failed");
             }
 
             long[] test64 = new long[] {
@@ -69,7 +69,7 @@ namespace Test
 
                 MemoryStream ms2 = new MemoryStream(ms1.ToArray());
                 if (ProtocolParser.ReadZInt64(ms2) != test64[n])
-                    throw new InvalidDataException("Test failed");
+                    throw new IOException("Test failed");
 
                 MemoryStream ms3 = new MemoryStream(ms1.ToArray());
                 ulong wire = ProtocolParser.ReadUInt64(ms3);
@@ -78,7 +78,7 @@ namespace Test
                     testWire64 = (testWire64 * -1) - 1;
 
                 if (testWire64 != test64[n])
-                    throw new InvalidDataException("Test failed");
+                    throw new IOException("Test failed");
             }
         }
     }
